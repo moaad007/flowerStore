@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Nav from '../../components/Nav';
 const Products = () => {
     const cars = [
         { id: 1, name: 'Toyota Corolla', price: '$50/day' },
@@ -9,6 +9,7 @@ const Products = () => {
 
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <Nav />
             <h1>Car Rental Products</h1>
             <ul style={{ listStyleType: 'none', padding: 0 }}>
                 {cars.map((car) => (

@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Nav from '../../components/Nav';
 const About = () => {
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <Nav />
             <h1>About Us</h1>
             <p>
                 Welcome to Flower Store! We are passionate about providing the freshest and most beautiful flowers for every occasion. 

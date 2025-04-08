@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Nav from '../../components/Nav';
 const Contact = () => {
     return (
         <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+            <Nav />
             <h1>Contact Us</h1>
             <p>If you have any questions, feel free to reach out to us!</p>
             <form style={{ maxWidth: '400px', margin: '0 auto' }}>
