@@ -37,7 +37,7 @@ function Home() {
     <img
       src={bouqet}
       alt="bouqet"
-      className="max-h-[80%] object-contain"
+      className="max-h-[80%] object-contain mix-blend-darken mb-[-120px] mr-[-30px]"
     />
   </div>
 </div>
